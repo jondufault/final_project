@@ -1,0 +1,49 @@
+<h2>Submit AJAX Data v7</h2>
+<div id="new_form">
+<div id="name-group">
+    <label for="name">Name</label>
+    <input type="text" name="name" placeholder="Your name">
+</div>
+<div id="email-group">
+    <label for="email">Email</label>
+    <input type="text" name="email" placeholder="Your email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,10}$">
+</div>
+
+<div id="phone-group">
+    <label for="phone_number">Email</label>
+    <input type="text" name="phone_number" placeholder="phone_number">
+</div>
+
+<div id="id_group" style="display:none">
+    <label for="id">id</label>
+    <input type="hidden" name="id" placeholder="phone_number">
+</div>
+
+
+<div id="delete_group" style="display:none">
+    <label for="id">delete</label>
+    <input type="hidden" name="delete" placeholder="phone_number">
+</div>
+
+
+<button id="sendButtopn">Create a User</button>
+
+</div>
+
+<div id="details_page">
+<div id="contact_header">
+Contact
+</div>
+
+<div id="contact_details">
+<p>Name: <span id="contact_name"></span></p>
+<p>email: <span id="contact_email"></span></p>
+<p>Phone Number: <span id="contact_phone_number"></span></p>
+<p style="display: none">id: <span id="contact_id"></span></p>
+
+<p id="details_update">update</p>
+<p id="details_delete">delete</p>
+</div>
+</div>
+
+<div id="output"></div>
